@@ -1,4 +1,4 @@
 guavaUsage
 ==========
 
-学习guava的使用
+how to use java ? learning ..

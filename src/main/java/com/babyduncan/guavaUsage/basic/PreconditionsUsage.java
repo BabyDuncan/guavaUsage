@@ -10,7 +10,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 public class PreconditionsUsage {
     public static void main(String... args) {
 //        int i = -1;
-//        checkArgument(i >= 0, "Argument was %s but expected nonnegative", i);
+//        checkArgument(i >= 0, "Argument was %s but expected non negative", i);
 //        System.out.println("test");
         String s = null;
         System.out.println(checkNotNull(s, "not null", "fuck"));
