@@ -6,7 +6,7 @@ package com.babyduncan.guavaUsage;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        if (args.length < 1) ;
-        throw new IllegalArgumentException("Missing required argument");
+        if (args.length < 1)
+            throw new IllegalArgumentException("Missing required argument");
     }
 }
